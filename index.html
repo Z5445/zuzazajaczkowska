@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuza Zajączkowska | Portfolio</title>
+    <style>
+        /* Minimalistyczne style pasujące do Twojej instalacji */
+        body {
+            /* Prosta, czytelna czcionka bezszeryfowa */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff; /* Czysta biel */
+            color: #222222; /* Bardzo ciemny szary - łagodniejszy dla oczu niż czarny */
+            line-height: 1.8; /* Duże odstępy między wierszami (oddech) */
+            margin: 0;
+            padding: 10% 5%; /* Duże marginesy wokół strony */
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 700px; /* Zwężona kolumna tekstu - ułatwia czytanie i wygląda artystycznie */
+            width: 100%;
+        }
+
+        header {
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-weight: 400; /* Brak pogrubienia, lżejszy wygląd */
+            font-size: 2.2em;
+            letter-spacing: 1px; /* Lekko rozstrzelone litery */
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 1em;
+            color: #777777; /* Szary podpis */
+            margin-top: 0;
+        }
+
+        .profile-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+            /* Opcjonalnie: lekkie zaokrąglenie rogów, jeśli usuniesz komentarz poniżej */
+            /* border-radius: 4px; */ 
+        }
+
+        .bio {
+            margin-bottom: 50px;
+            font-size: 1.05em;
+        }
+
+        .links {
+            list-style-type: none; /* Usunięcie kropek z listy */
+            padding: 0;
+            margin: 0;
+            border-top: 1px solid #eeeeee; /* Delikatna linia oddzielająca */
+            padding-top: 30px;
+        }
+
+        .links li {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #222222;
+            text-decoration: none;
+            border-bottom: 1px solid #222222; /* Podkreślenie linku zamiast domyślnego */
+            padding-bottom: 2px;
+            transition: opacity 0.3s ease;
+        }
+
+        a:hover {
+            opacity: 0.5; /* Link blednie po najechaniu myszką */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Zuza Zajączkowska</h1>
+            <p class="subtitle">Artystka wizualna</p> <!-- Możesz tu dopisać / Fotografka, ale do galerii samo to brzmi świetnie -->
+        </header>
+
+        <!-- ZDJĘCIE -->
+        <!-- Zmień nazwę pliku "moje-zdjecie.jpg" na taką, jaką wgrasz na GitHuba -->
+        <img src="moje-zdjecie.jpg" alt="Portret - Zuza Zajączkowska" class="profile-image">
+
+        <!-- OPIS -->
+        <div class="bio">
+            <p>
+                Zajmuję się sztuką konceptualną, instalacją oraz szeroko pojętą twórczością wizualną. 
+                W swoich pracach najchętniej badam obszary na styku psychologii, logiki i ludzkich emocji, szukając sposobów na ich zmaterializowanie w przestrzeni.
+            </p>
+            <p>
+                Tu możesz dodać drugie zdanie o swojej edukacji (np. dyplomie) lub inspiracjach, jeśli chcesz, żeby tekst był dłuższy. Minimalizm jednak lubi skróty.
+            </p>
+        </div>
+
+        <!-- LINKI I KONTAKT -->
+        <ul class="links">
+            <li>
+                <a href="https://z5445.github.io/jedna-na-raz-chmury-emocji-brak/index.html?lang=pl" target="_blank">
+                    → Zobacz instalację dyplomową: "Jedna na raz..."
+                </a>
+            </li>
+            <li>
+                <a href="mailto:hello@zuzazajaczkowska.com">
+                    → hello@zuzazajaczkowska.com
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
